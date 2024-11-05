@@ -1,0 +1,13 @@
+let ingredientes = ['leite', 'açúcar', 'pão',
+'manteiga'];
+let encontrar = ingredientes.indexOf('pão');
+console.log(encontrar);
+
+let numeros = ["5","10", "15", "20"];
+let encontrou = numeros.includes("25");
+console.log (encontrou);
+
+let valores = [ '3', '6', '9', '12'];
+for (item of valores){
+console.log (item);
+}
